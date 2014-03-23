@@ -1,9 +1,36 @@
 {
-  "volo": {
-    "url": "https://raw.github.com/jrburke/r.js/{version}/dist/r.js"
+  "name": "amd-optimize",
+  "version": "0.0.0",
+  "description": "optimize a set of amd modules by finding all of their dependencies and ordering them from leaf to root",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
   },
   "dependencies": {
-    "esprima": "^1.0.4",
-    "requirejs-browser": "^2.1.9"
-  }
+    "esprima": "~1.0.4",
+    "requirejs-browser": "~2.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mariusGundersen/r.js.git"
+  },
+  "keywords": [
+    "amd",
+    "requirejs",
+    "optimize",
+    "require.js",
+    "require",
+    "modules",
+    "define"
+  ],
+  "author": "Marius Gundersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariusGundersen/r.js/issues"
+  },
+  "homepage": "https://github.com/mariusGundersen/r.js"
 }
