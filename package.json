@@ -1,5 +1,9 @@
 {
-    "volo": {
-        "url": "https://raw.github.com/jrburke/r.js/{version}/dist/r.js"
-    }
+  "volo": {
+    "url": "https://raw.github.com/jrburke/r.js/{version}/dist/r.js"
+  },
+  "dependencies": {
+    "esprima": "^1.0.4",
+    "requirejs-browser": "^2.1.9"
+  }
 }

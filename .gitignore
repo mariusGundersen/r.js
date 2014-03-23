@@ -102,3 +102,4 @@ tests/node/node_modules
 tests/node/embedded/node_modules
 tests/rhino/main-built.js
 tests/xpcshell/main-built.js
+/node_modules
