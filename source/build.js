@@ -115,7 +115,7 @@ define(function (require) {
 
     /**
      * Main API entry point into the build. The args argument can either be
-     * an array of arguments (like the onese passed on a command-line),
+     * an array of arguments (like the ones passed on a command-line),
      * or it can be a JavaScript object that has the format of a build profile
      * file.
      *
